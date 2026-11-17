@@ -1,0 +1,237 @@
+@font-face {
+    font-family: Krungthep;
+    src: url(Krungthep.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+#backgroundRain {
+    background-image: url("images/Matrix.gif");
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-attachment: fixed;
+    opacity: 0.5;
+    height: 100%;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+}
+
+.rain {
+    display: block;
+    user-select: none;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: #1fff57;
+    font-family: 'Krungthep';
+    margin: -30% auto auto 50%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+    white-space: nowrap;
+}
+
+.bigRain {
+    font-size: 60px;
+    filter: blur(6px);
+    position: relative;
+
+}
+
+.mediumRain {
+    font-size: 40px;
+    filter: blur(3px);
+    position: relative;
+}
+
+.smallRain {
+    font-size: 20px;
+    position: relative;
+}
+
+
+header {
+    color: #1fff57;
+    font-family: 'Krungthep';
+    text-align: center;
+    width: max-content;
+    margin: 0px auto 0.5em auto;
+}
+
+#arrow a {
+    color: #1fff57;
+    font-family: 'Krungthep';
+    text-align: center;
+    font-size: 5vw;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0%;
+    right: 2%;
+    z-index: 2;
+}
+
+nav {
+    width: 30%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0.5em;
+    border-right: 1px solid #1fff57;
+}
+
+nav a {
+    color: #1fff57;
+    font-family: 'Krungthep';
+    text-decoration: none;
+}
+
+nav li {
+    text-align: right;
+    list-style-type: none;
+}
+
+#info {
+    color: #73ff96;
+    font-family: 'Krungthep';
+    text-align: left;
+    overflow: auto;
+    width: 50%;
+    margin-left: 30%;
+    padding-left: 1.5em;
+}
+
+#characterset {
+    clear: both;
+    width: max-content;
+    margin: 2em auto 5% auto;
+}
+
+#characterset ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 0.25em 3em;
+    justify-content: center;
+}
+
+#characterset li {
+    color: #1fff57;
+    font-size: 25px;
+    font-family: 'Krungthep';
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#display {
+    width: 100%;
+    font-family: 'Krungthep';
+    text-align: center;
+    margin: auto auto 10% auto;
+}
+
+.displayBig {
+    font-size: 100px;
+    color: #1fff57;
+    position: relative;
+    filter: blur(4px);
+
+}
+
+.displayMed {
+    font-size: 50px;
+    color: #85ffa3;
+    position: relative;
+    filter: blur(2px);
+
+}
+
+.displaySmall {
+    font-size: 20px;
+    color: #cfffdb;
+    position: relative;
+
+}
+
+#bodycopy {
+    clear: both;
+    width: 60%;
+    color: #1fff57;
+    font-family: 'Krungthep';
+    font-size: 1vw;
+    margin: auto auto 5% auto;
+}
+
+#bodycopy div {
+    width: 33%;
+    text-align: left;
+    float: left;
+    padding: 0px 1em 0px 1em;
+    margin-bottom: 10%;
+
+}
+
+#clustering {
+    clear: both;
+    font-family: 'Krungthep';
+    width: 65%;
+    margin: 0px auto 10% auto;
+}
+
+#clustering h2 {
+    color: #1fff57;
+    font-size: 4.5vw;
+}
+
+#clustering h3 {
+    color: #85ffa3;
+    font-size: 3vw;
+}
+#clustering h4{
+    color: #b0ffc4;
+    font-size: 2vw;;
+}
+
+#clustertext {
+    color: #cfffdb;
+    font-size: 1vw;
+}
+
+#clustercode {
+    color: #1fff57;
+    font-size: 1vw;
+    width: 60%;
+    margin: 1em auto 0px auto;
+}
+
+footer {
+    text-align: center;
+    width: 80%;
+    margin: auto auto 7.5% auto;
+    clear: both;
+}
+
+
+
+footer a {
+    color: #1fff57;
+    font-family: 'Krungthep';
+    text-decoration: none;
+}
